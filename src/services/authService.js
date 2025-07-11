@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:8080/auth';
+const API_URL = 'https://skyroottaskbackend.onrender.com/auth';
 
 axios.defaults.withCredentials = true;
 
